@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buying Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1><a class="logo" href="index.html">Laptop Guru</a></h1>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul id="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="guide.html">Guide</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="guide_intro">
+            <h1>Welcome to the Buying Guide<span>!</span></h1>
+            <p>This guide aims to help you-</p>
+            <ul id="guide_list" type="square">
+                <li>Get educated about laptop specifications.</li>
+                <li>Navigate the marketing.</li>
+                <li>Make reasonable decisions.</li>
+            </ul>
+        </div>
+
+        <div class="steps">
+            <p>Here are the steps towards purchasing the perfect laptop for you.</p>
+        </div>
+        <div class="tiles-container">
+            <div class="tile">
+                <h3>1)Decide on the Budget.</p>
+            </div>
+            <div class="tile">
+                <h3>2)Think about what your use-case with a laptop is.</h3>
+            </div>
+            <div class="tile">
+                <h3>3)Browse the different options available and compare them with one another.</h3>
+            </div>
+            <div class="tile">
+                <h3>4)Look at reviews, testimonials, and discuss with reliable people.</h3>
+            </div>
+        </div>
+        <div class="tips">
+            <h2>Reliable Sources.</h2>
+            <p>Make sure to refer the reviews from reliable sources, such as :  </p>
+            <ol type="1">
+                <li>
+                    Youtube Channels
+                </li>
+                    <ul class="reviews_list">
+                        <li>Linus Tech Tips</li>
+                        <li>Dave 2D</li>
+                        <li>Jarrod Tech</li>
+                    </ul>
+                <li>
+                    Reddit communities:
+                </li>
+                    <ul class="reviews_list">
+                        <li>LaptopDeals</li>
+                        <li>pcmasterrace</li>
+                    </ul>
+            </ol>
+        </div>
+        <div class="tips">
+            <h2>Some tips to keep in mind!</h2>
+            <ul type="disc">
+                <li>Dont fall into Marketing tactics! Always stay sharp about those.</li>
+                <li>Look out for amazing deals in local showrooms or online platforms as well.</li>
+                <li>Make sure to stay up-to-date with brands to be aware of any major/widespread issues.</li>
+                <li>Remember!   Any image you might have over any company's product quality or services dont always hold true for all of their products. </li>
+                <li>Make sure to also consider the after-sales service of a company as that is often an overlooked factor.</li>
+            </ul>
+        </div>
+        <footer>
+            <p>&copy; 2025 LaptopGuru. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

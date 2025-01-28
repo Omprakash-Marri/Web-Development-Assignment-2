@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Laptops</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1><a class="logo" style="text-decoration: none" href="home.html">Laptop Guru</a></h1>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a class="active" href="browse.html">Browse</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="browse_intro">
+            <h1>Browse Laptops<span>.</span></h1>
+            <br>
+        </div>
+        <div class="category">
+            <h3>Gaming Laptops</h3>
+            <div class="tiles-container">
+                <div class="tile">
+                    <a href="#">
+                        <img src="legion.png" alt="Laptop 1">
+                        <h4>Lenovo Legion Slim</h4>
+                        <p>Perfect for work and play.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="strix.png" alt="Laptop 2">
+                        <h4>Asus ROG Strix</h4>
+                        <p>Top-tier performance.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 3">
+                        <h4>Alienware M15</h4>
+                        <p>Built for hardcore gamers.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 4">
+                        <h4>Razer Blade 15</h4>
+                        <p>Compact gaming laptop.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>Business Laptops</h3>
+            <div class="tiles-container">
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 1">
+                        <h4>Macbook Pro</h4>
+                        <p>Lightweight and powerful.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 2">
+                        <h4>Lenovo ThinkPad</h4>
+                        <p>Reliable business laptop.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 3">
+                        <h4>Dell Latitude</h4>
+                        <p>Ideal for professionals.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 4">
+                        <h4>HP Elite Dragonfly</h4>
+                        <p>Premium, sleek design.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>Ultra-thin Laptops</h3>
+            <div class="tiles-container">
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 1">
+                        <h4>MacBook Air</h4>
+                        <p>Thin and ultra-portable.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 2">
+                        <h4>Asus ZenBook</h4>
+                        <p>Elegantly thin and powerful.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 3">
+                        <h4>HP Spectre x360</h4>
+                        <p>Sleek design, impressive specs.</p>
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <img src="zenbook.png" alt="Laptop 4">
+                        <h4>LG Gram</h4>
+                        <p>Light as a feather.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 LaptopGuru. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1><a class="logo" href="index.html">Laptop Guru</a></h1>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul id="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="about_main">
+        <div class="about_intro">
+            <h1>About Us</h1>
+            <p>Your trusted guide to finding the perfect laptop for your needs.</p>
+        </div>
+        <div class="about_text">
+            <h2>Who We Are</h2>
+            <p>
+                Laptops for You! is a platform dedicated to helping users find the best laptops based on their requirements, whether it’s for gaming, business, or general use. Our team of tech enthusiasts constantly reviews the latest models to ensure you have access to accurate and up-to-date information.
+            </p>
+            <h2>Our Mission</h2>
+            <p>
+                We aim to simplify the laptop-buying process by providing detailed recommendations, comparisons, and guides to help you make an informed decision.
+            </p>
+        </div>
+        <footer>
+            <p>&copy; 2025 LaptopGuru. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

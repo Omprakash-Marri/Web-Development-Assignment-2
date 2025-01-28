@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaptopGuru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1><a class="logo" href="home.html">Laptop Guru</a></h1>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul id="menu">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="intro">
+            <div class="intro_text">
+                <h1>Explore Laptops<span>.</span></h1>
+                <p>Different products for different lifestyles.</p>
+            </div>
+            <img id="zenbook" src="zenbook.png" alt="ZenBook">
+        </div>
+        <div class="next_intro">
+            <p>
+                Looking for a laptop, but not sure which one suits you the best??
+            </p>
+            <p>
+                Purchasing a laptop isn't a simple thing. A lot of things need to be taken into consideration.
+            </p>
+            <p>
+                Here's our <a href="guide.html">comprehensive guide</a> to simplify the process.
+            </p>
+        </div>
+        <div class="categories">
+            <h2>
+                Most popular options
+            </h2>
+        </div>
+        <div class="tiles-container">
+            <div class="tile">
+                <a href="">
+                    <img src="zenbook.png" alt="Laptop 1">
+                    <h3>Lenovo Legion Slim</h3>
+                    <p>Perfect for work and play.</p>
+                </a>
+            </div>
+            <div class="tile">
+                <img src="zenbook.png" alt="Laptop 2">
+                <h3>Macbook Pro (M3 Chipset)</h3>
+                <p>Lightweight and powerful.</p>
+            </div>
+            <div class="tile">
+                <img src="zenbook.png" alt="Laptop 3">
+                <h3>Dell G15</h3>
+                <p>Built for gaming.</p>
+            </div>
+            <div class="tile">
+                <img src="zenbook.png" alt="Laptop 4">
+                <h3>Lenovo Thinkpad</h3>
+                <p>Affordable and reliable.</p>
+            </div>
+        </div>
+        <div class="next_intro">
+            <p>To look for more specific categories, explore the <a href="browse.html">Browse Page</a>.</p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 LaptopGuru. All rights reserved.</p>
+        </footer>
+        
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
