@@ -356,13 +356,10 @@ textarea {
 
 /* Footer */
 footer {
-    background-color: rgba(49, 49, 49, 0.4);
-    color: white;
-    
-    
-    text-align: center;
-    padding: 0.5rem;
-    font-size: small;
+  background-color: rgba(49, 49, 49, 0.4);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
 }
 
 /* Responsiveness */
